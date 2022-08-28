@@ -7,3 +7,5 @@ __pycache__/
 
 # ignore idea
 .idea/
+
+test.py
