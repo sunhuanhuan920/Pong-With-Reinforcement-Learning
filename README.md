@@ -1,5 +1,11 @@
 # Pong with Reinforcement Learning
 
+## Prerequisite
+
+```shell
+python3 -m pip install pygame
+```
+
 ## SnakeCore.py
 
 Core logic of the game, SnakeVisual is only a demo for visualization. A single SankeCore object can be viewed as a one game round.
@@ -25,3 +31,13 @@ snake_move returns True if move is completed, False if snake: 1. hits body  2. h
 Iterates through the matrix, records all positions with 0.
 
 Randomly picks a valid postion and spawn food (set value to -1).
+
+
+
+## PongVisual.py
+
+Q, A: left player
+
+W, S: right player
+
+Hold Space Bar to keep the ball moving
